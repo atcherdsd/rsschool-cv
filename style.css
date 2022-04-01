@@ -90,9 +90,9 @@ section img {
 }
 .codeback {
     background: dimgray;
-    padding: 3px 10px;
+    padding: 3px 10px 0;
     width: 85%;
-    margin-top: 5px;
+    margin-top: 15px;
     font-size: 18px;
 }
 aside {
