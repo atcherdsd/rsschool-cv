@@ -6,3 +6,131 @@ body {
     border:rgb(58, 57, 57) solid 1px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
 }
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background: #333;
+    color: rgb(224, 208, 208);
+    box-sizing: border-box;
+    min-height: 250px;
+}
+.header-photo img {
+    border-radius: 50%;
+    width: 250px;
+    padding: 30px 100px;
+}
+h1 {
+    font-size: 3em;
+    position: relative;
+}
+h1::after {
+    content: "";
+    position: absolute;
+    height: 3px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: chocolate;
+}
+h2 {
+    margin: 0;
+}
+.headertitle {
+    font-size: 2em;
+    font-style: italic;
+    text-align: center;
+}
+nav {
+    box-sizing: border-box;
+    width: 100%;
+    text-align: center;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    background: chocolate;
+}
+nav.links {
+    color: black;
+}
+nav.links ul {
+    padding: 0 10px;
+    margin: 10px;
+    list-style: none;
+}
+nav.links li {
+    display: inline;
+    padding: 0 10px;
+    font-weight: bold;
+}
+nav.links li :hover {
+    color:rgb(245, 220, 208);
+}
+nav.links li a {
+    text-decoration: none;
+    font-size: 18pt;
+    color: black;
+    padding: 2pt;
+    font-weight: bold;
+}
+main {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background: rgb(245, 220, 208);
+}
+section {
+    padding: 30px 20px 10px;
+    box-sizing: border-box;
+    border-left: 1px solid black;
+    order: 1;
+}
+section img {
+    width: 200px;
+}
+.codeback {
+    background: dimgray;
+    padding: 10px;
+    width: 60%;
+}
+aside {
+    padding: 30px 20px 10px;
+    border-right: 1px solid #333;
+    box-sizing: border-box;
+}
+.ullist {
+    padding: 0 0 0 20px;
+}
+.contactitem {
+    font-weight: bold;
+}
+.content {
+    padding: 10px 5px;
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 0;
+}
+.content a {
+    text-decoration: none;
+}
+footer {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+    background: #333;
+    color: #ccc;
+}
+.logo img {
+    height: 40px;
+    border: 1px solid white;
+}
+.copy {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.copy img {
+    height: 40px;
+    padding: 0 10px;
+}
