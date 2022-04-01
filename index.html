@@ -78,7 +78,6 @@
                             <li>A2: 
                                 <p><img src="./img/EFSETscreen.png" alt="EF SET: A2 Elementary"></p>
                             </li>
-                            <li>EPAM Training Center</li>
                         </ul>
                     </li>
                     <li>Franch: B1</li>
@@ -90,9 +89,12 @@
             </div>
             <div class="codeback">
                 <pre>
-    function multiply(a, b) {
-        return a * b;
-    }
+    function isPrime(num) {
+        if (num < 2) return false;
+        for (let i = 2; i < (Math.sqrt(num - 1) + 1); i++)
+            if (num % i === 0) return false;
+        return true;
+        }
                 </pre>
             </div>
         </section>
