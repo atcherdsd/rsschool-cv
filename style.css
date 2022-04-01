@@ -1,0 +1,8 @@
+body {
+    background: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+    width: 80%;
+    margin: auto;
+    border:rgb(58, 57, 57) solid 1px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
