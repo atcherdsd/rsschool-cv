@@ -27,3 +27,30 @@ Currently, my life goals are further self-development, broadening my horizons an
 * Devtools
 * Charles Proxy, Fiddler, PICT
 * Postman, SoapUI (basics)
+## Code Example
+```
+function isPrime(num) {
+  if (num < 2) return false;
+  for (let i = 2; i < (Math.sqrt(num - 1) + 1); i++)
+    if (num % i === 0) return false;
+  return true;
+}
+```
+## Experience
+1. Layot Figma:\
+   ![Figma](./img/exam1.png)
+2. Audioplayer:\
+   ![Audioplayer](./img/exam2.png)
+3. Tic-tac-toe:\
+   ![Tic-tac-toe](./img/exam3.png)
+## Education
+* __Brest State University named after A. Pushkin__
+* __Courses:__
+    + CS50 lectures
+    + ITEA
+    + RS Schools Course «JavaScript/Front-end» (in progress)
+## English
+__A2:__
+* EF SET:
+
+    ![Result](./img/EFSETscreen.png)
