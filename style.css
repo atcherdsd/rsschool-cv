@@ -88,6 +88,9 @@ section {
 section img {
     width: 200px;
 }
+.exam {
+    width: 420px;
+}
 .codeback {
     background: dimgray;
     padding: 3px 10px 0;
@@ -102,6 +105,9 @@ aside {
 }
 .ullist {
     padding: 0 0 0 20px;
+}
+.efset {
+    width: 200px;
 }
 .contactitem {
     font-weight: bold;
