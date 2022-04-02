@@ -1,1 +1,1 @@
-https://atcherdsd.github.io/rsschool-cv/cv
+https://atcherdsd.github.io/rsschool-cv/
