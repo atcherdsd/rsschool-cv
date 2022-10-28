@@ -115,6 +115,11 @@ aside {
 .efset {
     width: 200px;
 }
+.efset:hover {
+    transform:scale(1.5);
+    transition: 0.3s;
+    cursor: pointer;
+}
 .contactitem {
     font-weight: bold;
 }
@@ -157,6 +162,18 @@ footer {
 .copy img {
     height: 40px;
     padding: 0 10px;
+}
+.link-github__wrapper {
+    margin: 0 0 2rem;
+}
+.link-github {
+    color: #000;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 18px;
+}
+.link-github:hover {
+    color: chocolate;
 }
 @media (max-width: 1315px) {
     nav.links li a {
